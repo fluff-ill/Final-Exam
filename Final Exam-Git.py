@@ -5,8 +5,9 @@
 
 import random
 
-min = 1
-max = 6
-
 roll = True
 
+while roll:
+    print("Rolling dice...")
+    print("You rolled", random.randint(1, 6))
+    break
