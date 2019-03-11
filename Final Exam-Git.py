@@ -5,9 +5,14 @@
 
 import random
 
+
 roll = True
 
 while roll:
     print("Rolling dice...")
     print("You rolled", random.randint(1, 6))
-    break
+    roll = input("do you want to roll again? (yes or no): ")
+    if roll == "yes":
+        continue
+    else:
+        break
