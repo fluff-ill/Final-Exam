@@ -17,12 +17,13 @@ while roll:
     for i in range (dice):
         time.sleep(1)
         number = random.randint(1, sides)
-        print("You rolled", number)
+          print("You rolled", number)
         amount = amount + number
     if sum == "yes":
-        print amount
-    else: 
-        time.sleep(0)
+        print ("sum: ", amount)
+    if average == "yes":
+        sumav = amount/(float(dice))
+        print ("average: ", sumav)
     
     roll = input("do you want to roll again? (yes or no): ")
     if roll == "yes":
