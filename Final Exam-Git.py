@@ -3,6 +3,9 @@
 # Final Exam
 # Roll a dice
 
+import random
+import time
+
 dice = int(input("How many dice do you want to roll? "))
 sides = int(input("How many sides do you want the dice to have? "))
 sum = input("Do you want to add your dice together? (yes or no): ")
