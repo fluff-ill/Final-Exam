@@ -5,16 +5,18 @@
 
 import random
 
-dice = input("How many dice do you  want to roll?")
+dice = int(input("How many dice do you want to roll? "))
+sides = int(input("How many sides do you want the dice to have? "))
 roll = True
 
 while roll:
     print("Rolling dice...")
     for i in range (dice):
-        print("You rolled", random.randint(1, 6))
+        print("You rolled", random.randint(1, sides))
     roll = input("do you want to roll again? (yes or no): ")
     if roll == "yes":
-        dice = int(input("How many dice do you  want to roll?" ))
+        dice = int(input("How many dice do you want to roll? " ))
+        sides = int(input("How many sides do you want the dice to have? "))
         continue
     else:
         break
