@@ -3,6 +3,12 @@
 # Final Exam
 # Roll a dice
 
+"""
+This is a Dice Rolling Simulator
+Jacob and I both worked on this and Juan helped fix some stuff
+This was made for my CSSE Exam
+"""
+
 import random
 import time
 
