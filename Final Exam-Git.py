@@ -5,8 +5,10 @@
 
 """
 This is a Dice Rolling Simulator
-Jacob and I both worked on this and Juan helped fix some stuff
+Jacob and I both worked on this equally and Juan helped fix some stuff
 This was made for my CSSE Exam
+This program 'rolls dice'
+March 14 2019
 """
 
 import random
